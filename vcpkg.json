@@ -1,0 +1,8 @@
+{
+  "name": "nova-template",
+  "version-string": "0.1.0",
+  "builtin-baseline": "INSERT_SHA_FROM_VCPKG_JSON",
+  "dependencies": [
+    "fmt"
+  ]
+}
