@@ -165,6 +165,10 @@ void debug(const std::string& message) {
     }
 }
 
+bool is_initialized() {
+    return static_cast<bool>(s_logger);
+}
+
 }
 
 

@@ -5,6 +5,7 @@ namespace Nova::Logger {
     std::shared_ptr<spdlog::logger> get();
 
     void init(const std::string& name);
+    bool is_initialized();
     void shutdown();
 
     void info(const std::string& message);
