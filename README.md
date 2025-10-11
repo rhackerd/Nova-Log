@@ -1,1 +1,1 @@
-# template-cmake
+# Logger for Nova libraries
