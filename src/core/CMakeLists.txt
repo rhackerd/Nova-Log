@@ -11,5 +11,5 @@ target_include_directories(core PUBLIC
 
 # Link required libraries
 target_link_libraries(core PUBLIC
-
+    spdlog::spdlog
 )

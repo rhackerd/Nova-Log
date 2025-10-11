@@ -1,15 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
 
-if(DEFINED ENV{VCPKG_ROOT})
-    set(CMAKE_TOOLCHAIN_FILE "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
-        CACHE STRING "Vcpkg toolchain file")
-endif()
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+include(cmake/CPM.cmake)
+
 project(template_cmake)
 
-find_package(fmt REQUIRED)
+CPMAddPackage("gh:gabime/spdlog@1.15.3")
 
 add_subdirectory(src/core)
 add_subdirectory(src/app)
