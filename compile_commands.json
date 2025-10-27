@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/async.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/src/core",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/rhacker/Documents/Nova-Log/src/core/include -isystem /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -o CMakeFiles/Nova_Logger.dir/logger.cpp.o -c /home/rhacker/Documents/Nova-Log/src/core/logger.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/src/core/logger.cpp",
+  "output": "src/core/CMakeFiles/Nova_Logger.dir/logger.cpp.o"
+},
+{
+  "directory": "/home/rhacker/Documents/Nova-Log/build/src/app",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/rhacker/Documents/Nova-Log/src/app/../core/include -I/home/rhacker/Documents/Nova-Log/src/core/include -isystem /home/rhacker/Documents/Nova-Log/build/_deps/spdlog-src/include -O3 -DNDEBUG -o CMakeFiles/app.dir/main.cpp.o -c /home/rhacker/Documents/Nova-Log/src/app/main.cpp",
+  "file": "/home/rhacker/Documents/Nova-Log/src/app/main.cpp",
+  "output": "src/app/CMakeFiles/app.dir/main.cpp.o"
+}
+]
