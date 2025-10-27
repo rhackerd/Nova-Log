@@ -10,4 +10,7 @@ project(template_cmake)
 CPMAddPackage("gh:gabime/spdlog@1.15.3")
 
 add_subdirectory(src/core)
-add_subdirectory(src/app)
+
+if (CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
+    add_subdirectory(src/app)
+endif()
